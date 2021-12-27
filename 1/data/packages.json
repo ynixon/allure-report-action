@@ -1,12 +1,13 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "io.eroshenkoam.allure",
     "children" : [ {
       "name" : "PullRequestsWebTest",
       "children" : [ {
         "name" : "shouldClosePullRequest",
-        "uid" : "dc76c3b99d2ca011",
+        "uid" : "7a945607b5cd0aa7",
         "parentUid" : "7b2619394c8462a7c1b9481f4bbe72ff",
         "status" : "passed",
         "time" : {
@@ -16,10 +17,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldCreatePullRequest",
-        "uid" : "a34d3f2c30452253",
+        "uid" : "7ba9a176fb550318",
         "parentUid" : "7b2619394c8462a7c1b9481f4bbe72ff",
         "status" : "passed",
         "time" : {
@@ -29,57 +34,18 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "7b2619394c8462a7c1b9481f4bbe72ff"
     }, {
-      "name" : "IssuesWebTest",
-      "children" : [ {
-        "name" : "shouldCloseIssue",
-        "uid" : "5af435793cc4f2ba",
-        "parentUid" : "8f70829c464f428524f6568cae1397fd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596783485736,
-          "stop" : 1596783486785,
-          "duration" : 1049
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldAddLabelToIssue",
-        "uid" : "5be9a905cc54f429",
-        "parentUid" : "8f70829c464f428524f6568cae1397fd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596783485736,
-          "stop" : 1596783486785,
-          "duration" : 1049
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldCreateIssue",
-        "uid" : "a60a3fab87967ca9",
-        "parentUid" : "8f70829c464f428524f6568cae1397fd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596783485841,
-          "stop" : 1596783486843,
-          "duration" : 1002
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8f70829c464f428524f6568cae1397fd"
-    }, {
       "name" : "IssuesRestTest",
       "children" : [ {
         "name" : "shouldDeleteUserNote",
-        "uid" : "d99a7512c4a58a4a",
+        "uid" : "dd48c2ceb6a88014",
         "parentUid" : "9fd63ca5a47b9e84468cbe6b0821c497",
         "status" : "passed",
         "time" : {
@@ -89,10 +55,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "First Note" ]
       }, {
         "name" : "shouldCreateUserNote",
-        "uid" : "d26da7ad4ea6189",
+        "uid" : "154b43b7e6208ca6",
         "parentUid" : "9fd63ca5a47b9e84468cbe6b0821c497",
         "status" : "passed",
         "time" : {
@@ -102,10 +72,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "First Note" ]
       }, {
         "name" : "shouldCreateUserNote",
-        "uid" : "abbc23343847cadb",
+        "uid" : "951169c91f581508",
         "parentUid" : "9fd63ca5a47b9e84468cbe6b0821c497",
         "status" : "passed",
         "time" : {
@@ -115,10 +89,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "Second Note" ]
       }, {
         "name" : "shouldDeleteUserNote",
-        "uid" : "61e72aab1726ae7",
+        "uid" : "67a14103b60565bb",
         "parentUid" : "9fd63ca5a47b9e84468cbe6b0821c497",
         "status" : "passed",
         "time" : {
@@ -128,11 +106,69 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "Second Note" ]
       } ],
       "uid" : "9fd63ca5a47b9e84468cbe6b0821c497"
+    }, {
+      "name" : "IssuesWebTest",
+      "children" : [ {
+        "name" : "shouldAddLabelToIssue",
+        "uid" : "6c2017859e2295db",
+        "parentUid" : "8f70829c464f428524f6568cae1397fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596783485736,
+          "stop" : 1596783486785,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCloseIssue",
+        "uid" : "fba428003f9749a5",
+        "parentUid" : "8f70829c464f428524f6568cae1397fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596783485736,
+          "stop" : 1596783486785,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCreateIssue",
+        "uid" : "803946ed2d370aae",
+        "parentUid" : "8f70829c464f428524f6568cae1397fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596783485841,
+          "stop" : 1596783486843,
+          "duration" : 1002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f70829c464f428524f6568cae1397fd"
     } ],
     "uid" : "io.eroshenkoam.allure"
-  } ],
-  "name" : "packages"
+  } ]
 }

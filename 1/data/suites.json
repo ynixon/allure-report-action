@@ -1,10 +1,11 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "io.eroshenkoam.allure.PullRequestsWebTest",
     "children" : [ {
       "name" : "Close existing pull request for authorized user",
-      "uid" : "dc76c3b99d2ca011",
+      "uid" : "7a945607b5cd0aa7",
       "parentUid" : "51d8c011203cd16921cfee65110e539f",
       "status" : "passed",
       "time" : {
@@ -14,10 +15,14 @@
       },
       "flaky" : false,
       "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "Create new pull request for authorized user",
-      "uid" : "a34d3f2c30452253",
+      "uid" : "7ba9a176fb550318",
       "parentUid" : "51d8c011203cd16921cfee65110e539f",
       "status" : "passed",
       "time" : {
@@ -27,57 +32,18 @@
       },
       "flaky" : false,
       "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
     "uid" : "51d8c011203cd16921cfee65110e539f"
   }, {
-    "name" : "io.eroshenkoam.allure.IssuesWebTest",
-    "children" : [ {
-      "name" : "Close new issue for authorized user",
-      "uid" : "5af435793cc4f2ba",
-      "parentUid" : "db28732f2e4f362acd8d04e5397850d2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596783485736,
-        "stop" : 1596783486785,
-        "duration" : 1049
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create new issue with labels",
-      "uid" : "5be9a905cc54f429",
-      "parentUid" : "db28732f2e4f362acd8d04e5397850d2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596783485736,
-        "stop" : 1596783486785,
-        "duration" : 1049
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Create new issue authorized user",
-      "uid" : "a60a3fab87967ca9",
-      "parentUid" : "db28732f2e4f362acd8d04e5397850d2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1596783485841,
-        "stop" : 1596783486843,
-        "duration" : 1002
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "db28732f2e4f362acd8d04e5397850d2"
-  }, {
     "name" : "io.eroshenkoam.allure.IssuesRestTest",
     "children" : [ {
       "name" : "Close issue via api",
-      "uid" : "d99a7512c4a58a4a",
+      "uid" : "dd48c2ceb6a88014",
       "parentUid" : "a177520f68eac8395295b1f721427753",
       "status" : "passed",
       "time" : {
@@ -87,10 +53,14 @@
       },
       "flaky" : false,
       "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "allure-framework", "allure2", "First Note" ]
     }, {
       "name" : "Create issue via api",
-      "uid" : "d26da7ad4ea6189",
+      "uid" : "154b43b7e6208ca6",
       "parentUid" : "a177520f68eac8395295b1f721427753",
       "status" : "passed",
       "time" : {
@@ -100,10 +70,14 @@
       },
       "flaky" : false,
       "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "allure-framework", "allure2", "First Note" ]
     }, {
       "name" : "Create issue via api",
-      "uid" : "abbc23343847cadb",
+      "uid" : "951169c91f581508",
       "parentUid" : "a177520f68eac8395295b1f721427753",
       "status" : "passed",
       "time" : {
@@ -113,10 +87,14 @@
       },
       "flaky" : false,
       "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "allure-framework", "allure2", "Second Note" ]
     }, {
       "name" : "Close issue via api",
-      "uid" : "61e72aab1726ae7",
+      "uid" : "67a14103b60565bb",
       "parentUid" : "a177520f68eac8395295b1f721427753",
       "status" : "passed",
       "time" : {
@@ -126,9 +104,67 @@
       },
       "flaky" : false,
       "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "allure-framework", "allure2", "Second Note" ]
     } ],
     "uid" : "a177520f68eac8395295b1f721427753"
-  } ],
-  "name" : "suites"
+  }, {
+    "name" : "io.eroshenkoam.allure.IssuesWebTest",
+    "children" : [ {
+      "name" : "Create new issue with labels",
+      "uid" : "6c2017859e2295db",
+      "parentUid" : "db28732f2e4f362acd8d04e5397850d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596783485736,
+        "stop" : 1596783486785,
+        "duration" : 1049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Close new issue for authorized user",
+      "uid" : "fba428003f9749a5",
+      "parentUid" : "db28732f2e4f362acd8d04e5397850d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596783485736,
+        "stop" : 1596783486785,
+        "duration" : 1049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create new issue authorized user",
+      "uid" : "803946ed2d370aae",
+      "parentUid" : "db28732f2e4f362acd8d04e5397850d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596783485841,
+        "stop" : 1596783486843,
+        "duration" : 1002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "db28732f2e4f362acd8d04e5397850d2"
+  } ]
 }

@@ -1,35 +1,5 @@
 [ {
-  "uid" : "abbc23343847cadb",
-  "name" : "Create issue via api",
-  "time" : {
-    "start" : 1596783485835,
-    "stop" : 1596783485836,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d99a7512c4a58a4a",
-  "name" : "Close issue via api",
-  "time" : {
-    "start" : 1596783485736,
-    "stop" : 1596783485766,
-    "duration" : 30
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc76c3b99d2ca011",
-  "name" : "Close existing pull request for authorized user",
-  "time" : {
-    "start" : 1596783485736,
-    "stop" : 1596783487784,
-    "duration" : 2048
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5af435793cc4f2ba",
+  "uid" : "fba428003f9749a5",
   "name" : "Close new issue for authorized user",
   "time" : {
     "start" : 1596783485736,
@@ -39,7 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d26da7ad4ea6189",
+  "uid" : "154b43b7e6208ca6",
   "name" : "Create issue via api",
   "time" : {
     "start" : 1596783485736,
@@ -49,7 +19,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5be9a905cc54f429",
+  "uid" : "dd48c2ceb6a88014",
+  "name" : "Close issue via api",
+  "time" : {
+    "start" : 1596783485736,
+    "stop" : 1596783485766,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c2017859e2295db",
   "name" : "Create new issue with labels",
   "time" : {
     "start" : 1596783485736,
@@ -59,7 +39,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a34d3f2c30452253",
+  "uid" : "951169c91f581508",
+  "name" : "Create issue via api",
+  "time" : {
+    "start" : 1596783485835,
+    "stop" : 1596783485836,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ba9a176fb550318",
   "name" : "Create new pull request for authorized user",
   "time" : {
     "start" : 1596783485736,
@@ -69,7 +59,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a60a3fab87967ca9",
+  "uid" : "67a14103b60565bb",
+  "name" : "Close issue via api",
+  "time" : {
+    "start" : 1596783485836,
+    "stop" : 1596783485836,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "803946ed2d370aae",
   "name" : "Create new issue authorized user",
   "time" : {
     "start" : 1596783485841,
@@ -79,12 +79,12 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "61e72aab1726ae7",
-  "name" : "Close issue via api",
+  "uid" : "7a945607b5cd0aa7",
+  "name" : "Close existing pull request for authorized user",
   "time" : {
-    "start" : 1596783485836,
-    "stop" : 1596783485836,
-    "duration" : 0
+    "start" : 1596783485736,
+    "stop" : 1596783487784,
+    "duration" : 2048
   },
   "status" : "passed",
   "severity" : "normal"

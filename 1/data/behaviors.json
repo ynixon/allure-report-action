@@ -1,12 +1,13 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "Pull Requests",
     "children" : [ {
       "name" : "Close existing pull request",
       "children" : [ {
         "name" : "Close existing pull request for authorized user",
-        "uid" : "dc76c3b99d2ca011",
+        "uid" : "7a945607b5cd0aa7",
         "parentUid" : "6526b340b2ea1e62ffc8345ded80efcb",
         "status" : "passed",
         "time" : {
@@ -16,6 +17,10 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "6526b340b2ea1e62ffc8345ded80efcb"
@@ -23,7 +28,7 @@
       "name" : "Create new pull request",
       "children" : [ {
         "name" : "Create new pull request for authorized user",
-        "uid" : "a34d3f2c30452253",
+        "uid" : "7ba9a176fb550318",
         "parentUid" : "b6661ad73eea1ac4e56bf2dcb6d79b3a",
         "status" : "passed",
         "time" : {
@@ -33,6 +38,10 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "b6661ad73eea1ac4e56bf2dcb6d79b3a"
@@ -43,21 +52,8 @@
     "children" : [ {
       "name" : "Close existing issue",
       "children" : [ {
-        "name" : "Close new issue for authorized user",
-        "uid" : "5af435793cc4f2ba",
-        "parentUid" : "95f688f6b9c59f2d67e1c1eba9025589",
-        "status" : "passed",
-        "time" : {
-          "start" : 1596783485736,
-          "stop" : 1596783486785,
-          "duration" : 1049
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Close issue via api",
-        "uid" : "d99a7512c4a58a4a",
+        "uid" : "dd48c2ceb6a88014",
         "parentUid" : "95f688f6b9c59f2d67e1c1eba9025589",
         "status" : "passed",
         "time" : {
@@ -67,10 +63,31 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "First Note" ]
       }, {
+        "name" : "Close new issue for authorized user",
+        "uid" : "fba428003f9749a5",
+        "parentUid" : "95f688f6b9c59f2d67e1c1eba9025589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596783485736,
+          "stop" : 1596783486785,
+          "duration" : 1049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "Close issue via api",
-        "uid" : "61e72aab1726ae7",
+        "uid" : "67a14103b60565bb",
         "parentUid" : "95f688f6b9c59f2d67e1c1eba9025589",
         "status" : "passed",
         "time" : {
@@ -80,6 +97,10 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "Second Note" ]
       } ],
       "uid" : "95f688f6b9c59f2d67e1c1eba9025589"
@@ -87,7 +108,7 @@
       "name" : "Create new issue",
       "children" : [ {
         "name" : "Create new issue with labels",
-        "uid" : "5be9a905cc54f429",
+        "uid" : "6c2017859e2295db",
         "parentUid" : "25a4a77ff4a0dccdc3b255e2f5190ca4",
         "status" : "passed",
         "time" : {
@@ -97,10 +118,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "Create issue via api",
-        "uid" : "d26da7ad4ea6189",
+        "uid" : "154b43b7e6208ca6",
         "parentUid" : "25a4a77ff4a0dccdc3b255e2f5190ca4",
         "status" : "passed",
         "time" : {
@@ -110,10 +135,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "First Note" ]
       }, {
         "name" : "Create issue via api",
-        "uid" : "abbc23343847cadb",
+        "uid" : "951169c91f581508",
         "parentUid" : "25a4a77ff4a0dccdc3b255e2f5190ca4",
         "status" : "passed",
         "time" : {
@@ -123,10 +152,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ "allure-framework", "allure2", "Second Note" ]
       }, {
         "name" : "Create new issue authorized user",
-        "uid" : "a60a3fab87967ca9",
+        "uid" : "803946ed2d370aae",
         "parentUid" : "25a4a77ff4a0dccdc3b255e2f5190ca4",
         "status" : "passed",
         "time" : {
@@ -136,11 +169,14 @@
         },
         "flaky" : false,
         "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "25a4a77ff4a0dccdc3b255e2f5190ca4"
     } ],
     "uid" : "b464cd6d73cbced255dc95dc73974120"
-  } ],
-  "name" : "behaviors"
+  } ]
 }
