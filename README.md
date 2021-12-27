@@ -2,7 +2,7 @@
 
 Generates Allure Report with history.
 
-Example workflow file [allure-report](https://github.com/simple-elf/allure-report-action/blob/master/.github/workflows/allure-report.yml)
+Example workflow file [allure-report](https://github.com/ynixon/allure-report-action/blob/master/.github/workflows/allure-report.yml)
 
 ## Inputs
 
@@ -44,7 +44,7 @@ Default `allure-history`
 ### `subfolder`
 
 The relative path to the project folder, if you have few different projects in the repository. 
-This relative path also will be added to GitHub Pages link. Example project [allure-examples](https://github.com/simple-elf/allure-examples).
+This relative path also will be added to GitHub Pages link. Example project [allure-examples](https://github.com/ynixon/allure-examples).
 
 Default ``
 
@@ -66,7 +66,7 @@ Default ``
 
 ```yaml
 - name: Test marketplace action
-  uses: simple-elf/allure-report-action@master
+  uses: ynixon/allure-report-action@master
   if: always()
   id: allure-report
   with:
@@ -99,5 +99,5 @@ Default ``
       context: 'Test report'
       state: 'success'
       sha: ${{ github.event.pull_request.head.sha }}
-      target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
+      target_url: ynixon.github.io/github-allure-history/${{ github.run_number }}
 ```
