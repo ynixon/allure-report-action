@@ -1,4 +1,5 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:18-jdk-alpine
+
 
 ARG RELEASE=2.14.0
 RUN echo $RELEASE
